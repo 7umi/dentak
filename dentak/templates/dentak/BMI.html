@@ -1,0 +1,26 @@
+{% load static %}
+<script src="{% static 'dentak/BMI.js' %}"></script>
+
+<html>
+<head>
+<title>BMI計算機</title>
+</head>
+<body onload="init()">
+<h1>BMI計算機</h1>
+性別：
+<label><input type="radio" name="ck01"  value="1">男</label>
+<label><input type="radio" name="ck01" value="2">女</label><br>
+年齢：<input id="i2" value="25" />歳<br>
+身長：<input id="i0" value="1.7" />m
+体重：<input id="i1" value="65" />kg
+<button onclick="calcBMI()">check</button>
+<p id="result"></p>
+<h2>お絵描きスペース</h2>
+<canvas id="can" width="700" height="500"></canvas>
+<footer>
+ <p>© All rights reserved by ore</p>
+ <p><a href="/dentak">目次</a></p>
+ </footer>
+</body>
+
+</html>

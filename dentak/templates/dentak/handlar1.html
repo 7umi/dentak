@@ -1,0 +1,27 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'dentak/handlar1.css' %}" />
+<script src="{% static 'dentak/handlar1.js' %}"></script>
+
+<html>
+<head>
+<title>handlar1</title>
+</head>
+<body>
+<h1>〇のカードをクリックで当てよう</h1>
+<div id="deck">
+<table>
+<tr>
+<td class="card" id="card0"></td>
+<td class="card" id="card1"></td>
+<td class="card" id="card2"></td>
+</tr>
+</table>
+<button id="shuffle">shuffle</button>
+</div>
+<div id="debug"></div>
+<footer>
+ <p>© All rights reserved by ore</p>
+ <p><a href="/dentak">目次</a></p>
+ </footer>
+</body>
+</html>

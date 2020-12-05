@@ -1,0 +1,30 @@
+{% load static %}
+<link rel="stylesheet" type="text/css" href="{% static 'dentak/Oekaki.css' %}" />
+<script src="{% static 'dentak/Oekaki.js' %}"></script>
+
+<html>
+<head>
+<title>お絵描き</title>
+</head>
+<body>
+<h1>お絵描きスペース</h1>
+<canvas  id="can" width="1000" height="700" ></canvas>
+<br>
+<button type="button" onclick="blue()">あお</button>
+<button type="button" onclick="red()">あか</button>
+<button type="button" onclick="black()">くろ</button>
+<button type="button" onclick="green()">みどり</button>
+<button type="button" onclick="yellow()">きいろ</button>
+<button type="button" onclick="white()">しろ</button>
+<button type="button" onclick="location.href='.';">クリア</button>
+<br>
+<button type="button" onclick="hoso()">細</button>
+<button type="button" onclick="chu()">中</button>
+<button type="button" onclick="futoi()">太</button>
+<button type="button" onclick="gatifuto()">ガチ太</button>
+<footer>
+ <p>© All rights reserved by ore</p>
+ <p><a href="/dentak">目次</a></p>
+ </footer>
+</body>
+</html>

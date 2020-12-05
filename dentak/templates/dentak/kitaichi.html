@@ -1,0 +1,22 @@
+{% load static %}
+<script src="{% static 'dentak/kitaichi.js' %}"></script>
+
+<html>
+<head>
+<title>期待値</title>
+</head>
+<body>
+<h1>期待値</h1>
+<div>
+～％の確率で当たるガチャを～回引いた時の、当たる期待値を出します。
+</div>
+確率：<input id="i0" value="1" />％
+回数：<input id="i1" value="100" />回
+<button onclick="calckitaichi()">check</button>
+<p id="kitaichi"></p>
+</body>
+<footer>
+ <p>© All rights reserved by ore</p>
+ <p><a href="/dentak">目次</a></p>
+ </footer>
+</html>

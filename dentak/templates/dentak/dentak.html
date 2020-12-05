@@ -1,0 +1,72 @@
+{% load static %}
+
+<link rel="stylesheet" type="text/css" href="{% static 'dentak/style.css' %}" />
+<script src="{% static 'dentak/dentak.js' %}"></script>
+
+<html>
+<head>
+<title>dentak</title>
+</head>
+
+
+<body>
+<div class="pyramid_parent">
+    <h1>dentak</h1>
+</div>
+
+<div class="pyramid_parent">
+    <input class="result" />
+</div>
+
+<div class="pyramid_parent">
+    <div>
+        <input type="button" onclick="update( '' ) " value="Clear" class="pyramid_box">
+        <input type="button" onclick="hatena( '' ) " value="??" class="pyramid_box">
+        <input type="button" onclick="del()" value="一字消す" class="pyramid_box">
+        <input type="button" onclick="append( '/' )" value="÷" class="pyramid_box_s">
+    </div>
+</div>
+
+<div class="pyramid_parent">
+    <div>
+        <input type="button" onclick="append( '7' )" value="7" class="pyramid_box">
+        <input type="button" onclick="append( '8' )" value="8" class="pyramid_box">
+        <input type="button" onclick="append( '9' )" value="9" class="pyramid_box">
+        <input type="button" onclick="append( '*' )" value="×" class="pyramid_box_s">
+    </div>
+</div>
+
+<div class="pyramid_parent">
+    <div>
+        <input type="button" onclick="append( '4' )" value="4" class="pyramid_box">
+        <input type="button" onclick="append( '5' )" value="5" class="pyramid_box">
+        <input type="button" onclick="append( '6' )" value="6" class="pyramid_box">
+        <input type="button" onclick="append( '-' )" value="-" class="pyramid_box_s">
+    </div>
+</div>
+
+<div class="pyramid_parent">
+    <div>
+        <input type="button" onclick="append( '1' )" value="1" class="pyramid_box">
+        <input type="button" onclick="append( '2' )" value="2" class="pyramid_box">
+        <input type="button" onclick="append( '3' )" value="3" class="pyramid_box">
+        <input type="button" onclick="append( '+' )" value="+" class="pyramid_box_s">
+    </div>
+</div>
+
+<div class="pyramid_parent">
+    <div>
+       <input type="button" onclick="append( '0' )" value="0" class="pyramid_box_R">
+       <input type="button" onclick="calc()" value="=" class="pyramid_box_R">
+    </div>
+   <input type="button" onclick="hatenadel()" style="opacity:0;">
+</div>
+<div class="pyramid_parent" id="output" ></div>
+
+<footer>
+ <p>© All rights reserved by ore</p>
+ <p><a href="/dentak">目次</a></p>
+ </footer>
+</body>
+
+</html>
