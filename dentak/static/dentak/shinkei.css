@@ -1,0 +1,12 @@
+.card{
+    width:80px;
+    height:120px;
+    border:2px solid red;
+    text-align:center;
+    font-size:26px;
+    box-shadow:rgb(128,128,128) 4px 4px;
+}
+
+.back{
+    background-color:black;
+}

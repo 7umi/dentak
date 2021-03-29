@@ -1,0 +1,51 @@
+h1 {
+    display:  inline-block;
+    width: 700px;
+    border: solid 2px;
+    font-size:300%;
+    padding:  10px;      /* 余白指定 */
+    margin:10px;
+    background: orange
+}
+
+.result {
+    width: 715px;
+    display:  inline-block;   /* インラインブロック要素にする */
+    font-size:300%;
+    border: solid 2px;
+    text-align: right;
+    margin: 10px;         /* 要素同士の隙間調整 */
+    padding: 5px;              /* 余白指定 */
+    box-sizing: border-box;     /* 崩れ防止 */
+}
+
+.pyramid_parent {
+    text-align: center;         /* 子要素を左右中央揃えにする */
+}
+ 
+.pyramid_box {
+    width: 200px;               /* 幅指定 */
+    display:  inline-block;     /* インラインブロック要素にする */
+    background-color:  #ccc;    /* 背景色指定 */
+    margin-bottom: 5px;         /* 要素同士の隙間調整 */
+    padding: 30px;              /* 余白指定 */
+    box-sizing: border-box;     /* 崩れ防止 */
+}
+
+.pyramid_box_s {
+    width: 100px;               /* 幅指定 */
+    display:  inline-block;     /* インラインブロック要素にする */
+    background-color:  #ccc;    /* 背景色指定 */
+    margin-bottom: 5px;         /* 要素同士の隙間調整 */
+    padding: 30px;              /* 余白指定 */
+    box-sizing: border-box;     /* 崩れ防止 */
+}
+
+.pyramid_box_R {
+    width: 355px;               /* 幅指定 */
+    display:  inline-block;     /* インラインブロック要素にする */
+    background-color:  #ccc;    /* 背景色指定 */
+    margin-bottom: 5px;         /* 要素同士の隙間調整 */
+    padding: 30px;              /* 余白指定 */
+    box-sizing: border-box;     /* 崩れ防止 */
+}
