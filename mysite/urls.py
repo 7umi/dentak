@@ -18,6 +18,5 @@ from django.urls import include, path
 
 urlpatterns = [
     path('dentak/',include('dentak.urls')),
-    path('polls/', include('polls.urls')),
     path('admin/', admin.site.urls),
 ]
