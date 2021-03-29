@@ -1,0 +1,19 @@
+
+cd C:\python\env1\mysite
+
+python manage.py runserver
+
+CTRL-BREAK
+
+github 7umi 0412Miya
+heroku ichi0654@yahoo.co.jp 0412-miya
+
+cd C:\python\env1\mysite
+
+git add -A
+
+git commit -m "Initial commit"
+
+heroku login
+
+git push heroku master
